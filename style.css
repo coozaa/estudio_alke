@@ -25,7 +25,7 @@
           /*0 en x, 5 en y bluer 10, spret -5*/  
 }
   
-.form input [type="number"] {
+.form input[type="number"] {
     width: 200px;
   }
 
