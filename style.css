@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+  }
+
+  body {
+    font-family:sans-serif;
+    background-color: #e5e5f7;
+    background: linear-gradient(135deg, #d9dbfd55 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #d9dbfd 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #d9dbfd55 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #d9dbfd 25%, #e5e5f7 25%) 0px 0/ 20px 20px;
+    display: flex;
+    min-height: 100vh;
+}
+  
+.juego {
+
+  background-color: #fff;
+  margin: auto;   /*esto hace que se ajuste gracias a display:flex de body*/
+  width: 90%;     
+  max-width: 400px; /*esto es para que el 90% no se ayor a 400px*/
+  padding: 4.5em 3em;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px -5px; /* color negro con una transparecia 30% */
+          /*0 en x, 5 en y bluer 10, spret -5*/  
+}
+  
+.form input [type="number"] {
+    width: 200px;
+  }
+
+.lastResult {
+    color: white;
+    padding: 3px;
+  }
