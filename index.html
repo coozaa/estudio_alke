@@ -10,14 +10,18 @@
   <body>
 
     <div class="juego">
-       <h1>Juego adivina el número</h1>
+       <h1 class="juego_title">Juego adivina el número</h1>
 
-        <p>Hemos seleccionado un número aleatorio entre 1 y 100. Fíjate si lo puedes adivinar en 10 turnos o menos. Vamos a decirte si tu número es más alto o más bajo.</p>
+        <p class="juego_parrafo">Hemos seleccionado un número aleatorio entre 1 y 100. Fíjate si lo puedes adivinar en 10 turnos o menos. Vamos a decirte si tu número es más alto o más bajo.</p>
 
      <div class="form">
+         
+         <div class="form_gruop">
          <label for="guessField">Adivina el numero:</label>
          <input type="number" min="1" max="100" required id="guessField" class="guessField">
         <input type="submit" value="Enviar respuesta" class="guessSubmit">
+        <span class="form_line"></span>
+      </div>
      </div>
 
      <div class="resultParas">

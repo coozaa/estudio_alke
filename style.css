@@ -23,8 +23,28 @@
   border-radius: 10px;
   box-shadow: 0px 5px 10px -5px; /* color negro con una transparecia 30% */
           /*0 en x, 5 en y bluer 10, spret -5*/  
+  text-align: center;  /*centra todo el texto*/
 }
   
+.juego_title {
+  font-size: 2rem;
+  margin-bottom: .5em;
+}
+
+.juego_parrafo {
+  font-weight: 400;
+}
+
+.form {
+
+  margin-top: 3em;
+  display: grid;
+  gap: 2.5em;
+}
+
+.form_gruop {
+  
+}
 .form input[type="number"] {
     width: 200px;
   }
